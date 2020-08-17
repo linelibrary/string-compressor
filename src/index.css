@@ -1,6 +1,18 @@
+@font-face {
+  font-family: 'Brutal Type';
+  font-weight: normal;
+  src: url('/Brutal Type W00 Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Brutal Type';
+  font-weight: bold;
+  src: url('/Brutal Type W00 Bold.ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Brutal Type', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +22,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+label {
+  color: white;
+}
+
+.btn-brand  {
+  background-color: #feca00;
+  color: black;
 }
